@@ -1,4 +1,4 @@
-@echo off
+@ECHO off
 call _uuid.bat ALWAYS_UP_UUID
 SET ALWAYS_UP_SCRIPT_PATH=_uuid.bat
 SET ALWAYS_UP_RESTART=y
