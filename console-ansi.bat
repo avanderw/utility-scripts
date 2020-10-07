@@ -1,8 +1,7 @@
 @ECHO off
-CALL _parse-arguments.bat %1 %2 %3
+CALL _parse-arguments.bat %*
 
 ECHO ** console-ansi.bat **
-
 IF DEFINED ARG_help (
   GOTO :HELP
 )

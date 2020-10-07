@@ -1,4 +1,3 @@
-@ECHO off
 @if (@X) == (@Y) @end /* JScript comment
     @echo off
 		for /f "tokens=*" %%a in ('cscript //E:JScript //nologo "%~f0" "%~nx0"') do (
